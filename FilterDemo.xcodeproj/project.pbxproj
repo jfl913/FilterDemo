@@ -15,6 +15,7 @@
 		8556A1911C06BFED006B0E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8556A18F1C06BFED006B0E8A /* LaunchScreen.storyboard */; };
 		8556A19C1C06BFED006B0E8A /* FilterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A19B1C06BFED006B0E8A /* FilterDemoTests.m */; };
 		8556A1A71C06BFED006B0E8A /* FilterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A1A61C06BFED006B0E8A /* FilterDemoUITests.m */; };
+		B60E3A461C07572500E329CE /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B60E3A451C07572500E329CE /* GPUImageFourInputFilter.m */; };
 		E6050BE86ADC4812621A6B30 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F56FC49E838865C995E0A4F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		8556A1A21C06BFED006B0E8A /* FilterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556A1A61C06BFED006B0E8A /* FilterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterDemoUITests.m; sourceTree = "<group>"; };
 		8556A1A81C06BFED006B0E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60E3A441C07572500E329CE /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
+		B60E3A451C07572500E329CE /* GPUImageFourInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFourInputFilter.m; sourceTree = "<group>"; };
 		DCB2122DB1CB1393550FAFE6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +171,8 @@
 		8556A1B51C06F0BA006B0E8A /* GPUImageHBFilter */ = {
 			isa = PBXGroup;
 			children = (
+				B60E3A441C07572500E329CE /* GPUImageFourInputFilter.h */,
+				B60E3A451C07572500E329CE /* GPUImageFourInputFilter.m */,
 			);
 			path = GPUImageHBFilter;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8556A1891C06BFED006B0E8A /* ViewController.m in Sources */,
+				B60E3A461C07572500E329CE /* GPUImageFourInputFilter.m in Sources */,
 				8556A1861C06BFED006B0E8A /* AppDelegate.m in Sources */,
 				8556A1831C06BFED006B0E8A /* main.m in Sources */,
 			);
