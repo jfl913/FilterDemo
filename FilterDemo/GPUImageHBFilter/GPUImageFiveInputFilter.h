@@ -10,7 +10,7 @@
 
 extern NSString *const kGPUImageFiveInputTextureVertexShaderString;
 
-@interface GPUImageFifthInputFilter : GPUImageFourInputFilter
+@interface GPUImageFiveInputFilter : GPUImageFourInputFilter
 {
     GPUImageFramebuffer *fifthInputFramebuffer;
     

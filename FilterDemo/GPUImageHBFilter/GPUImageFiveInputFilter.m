@@ -6,7 +6,7 @@
 //  Copyright © 2015年 LiJunfeng. All rights reserved.
 //
 
-#import "GPUImageFifthInputFilter.h"
+#import "GPUImageFiveInputFilter.h"
 
 NSString *const kGPUImageFiveInputTextureVertexShaderString = SHADER_STRING
 (
@@ -34,7 +34,7 @@ NSString *const kGPUImageFiveInputTextureVertexShaderString = SHADER_STRING
  }
 );
 
-@implementation GPUImageFifthInputFilter
+@implementation GPUImageFiveInputFilter
 
 #pragma mark - Initialization and teardown
 
