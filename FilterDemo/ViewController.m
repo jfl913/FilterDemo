@@ -13,6 +13,7 @@
 #import "GPUImageSixInputFilter.h"
 #import "IFAmaroFilter.h"
 #import "IFBrannanFilter.h"
+#import "IFWaldenFilter.h"
 
 typedef NS_ENUM(NSUInteger, FilterType) {
     FilterTypeThree,
@@ -51,7 +52,8 @@ typedef NS_ENUM(NSUInteger, FilterType) {
 {
     [super viewDidLoad];
     
-    self.filterType = FilterTypeFour;
+    self.filterType = FilterTypeThree;
+//    self.filterType = FilterTypeFour;
 //    self.filterType = FilterTypeSix;
     
     self.sourcePicture = [[GPUImagePicture alloc] initWithImage:[UIImage imageNamed:@"jfl"]];
@@ -63,6 +65,22 @@ typedef NS_ENUM(NSUInteger, FilterType) {
     
     switch (self.filterType) {
         case FilterTypeThree: {
+            self.threeFilter = [[IFWaldenFilter alloc] init];
+            
+            self.sourcePicture1 = [[GPUImagePicture alloc] initWithImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"waldenMap" ofType:@"png"]]];
+            self.sourcePicture2 = [[GPUImagePicture alloc] initWithImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"vignetteMap" ofType:@"png"]]];
+            
+            [self.sourcePicture addTarget:self.threeFilter];
+            [self.sourcePicture1 addTarget:self.threeFilter];
+            [self.sourcePicture2 addTarget:self.threeFilter];
+            
+            [self.threeFilter useNextFrameForImageCapture];
+            
+            [self.sourcePicture processImage];
+            [self.sourcePicture1 processImage];
+            [self.sourcePicture2 processImage];
+            
+            resultImage = [self.threeFilter imageFromCurrentFramebuffer];
             
             break;
         }

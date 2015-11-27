@@ -51,6 +51,7 @@
 		8551BB271C08068D00DD1186 /* waldenMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8551BAFD1C08068D00DD1186 /* waldenMap.png */; };
 		8551BB281C08068D00DD1186 /* xproMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8551BAFE1C08068D00DD1186 /* xproMap.png */; };
 		8551BB2B1C080C3200DD1186 /* IFAmaroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8551BB2A1C080C3200DD1186 /* IFAmaroFilter.m */; };
+		8551BB2E1C082B9900DD1186 /* IFWaldenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8551BB2D1C082B9900DD1186 /* IFWaldenFilter.m */; };
 		8556A1831C06BFED006B0E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A1821C06BFED006B0E8A /* main.m */; };
 		8556A1861C06BFED006B0E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A1851C06BFED006B0E8A /* AppDelegate.m */; };
 		8556A1891C06BFED006B0E8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A1881C06BFED006B0E8A /* ViewController.m */; };
@@ -131,6 +132,8 @@
 		8551BAFE1C08068D00DD1186 /* xproMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xproMap.png; sourceTree = "<group>"; };
 		8551BB291C080C3200DD1186 /* IFAmaroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAmaroFilter.h; sourceTree = "<group>"; };
 		8551BB2A1C080C3200DD1186 /* IFAmaroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAmaroFilter.m; sourceTree = "<group>"; };
+		8551BB2C1C082B9900DD1186 /* IFWaldenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFWaldenFilter.h; sourceTree = "<group>"; };
+		8551BB2D1C082B9900DD1186 /* IFWaldenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFWaldenFilter.m; sourceTree = "<group>"; };
 		8556A17E1C06BFED006B0E8A /* FilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556A1821C06BFED006B0E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8556A1841C06BFED006B0E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 				8551BB2A1C080C3200DD1186 /* IFAmaroFilter.m */,
 				8551BAD11C07FA6400DD1186 /* IFBrannanFilter.h */,
 				8551BAD21C07FA6400DD1186 /* IFBrannanFilter.m */,
+				8551BB2C1C082B9900DD1186 /* IFWaldenFilter.h */,
+				8551BB2D1C082B9900DD1186 /* IFWaldenFilter.m */,
 			);
 			path = InstaFilters;
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				8551BAD31C07FA6400DD1186 /* IFBrannanFilter.m in Sources */,
 				B60E3A491C07686200E329CE /* GPUImageFiveInputFilter.m in Sources */,
 				8556A1891C06BFED006B0E8A /* ViewController.m in Sources */,
+				8551BB2E1C082B9900DD1186 /* IFWaldenFilter.m in Sources */,
 				B60E3A461C07572500E329CE /* GPUImageFourInputFilter.m in Sources */,
 				8556A1861C06BFED006B0E8A /* AppDelegate.m in Sources */,
 				8556A1831C06BFED006B0E8A /* main.m in Sources */,
